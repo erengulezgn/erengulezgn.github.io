@@ -1,0 +1,613 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+body{
+    background-color: #fdf9f9;
+}
+
+/* ANA SAYFA SAYFA CSS */
+.konteyner{
+    background:url(White\ and\ Yellow\ Illustration\ Minimalist\ Geometric\ Digital\ Marketing\ Agency\ Banner\ \(4\).jpg);
+    height: 94vh;
+    background-size: 100% 100%;
+}
+
+.konteyner .ust_kisim{
+    width: 100%;
+    background-color:#fdf9f9f7;
+}
+
+
+.ust_kisim .logo img{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0px 240px;
+}
+
+
+
+
+.ust_kisim ul{
+    float: right;
+    margin-right: 300px;
+    font-weight: bold;
+}
+
+.ust_kisim ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 15px;
+    line-height: 90px;
+}
+
+.ust_kisim ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 3px;
+    font-family: Roboto;
+}
+
+.konteyner .merkez_yazi{
+    position:absolute;
+    top: 34%;
+    left: 20%;
+    transform:translate(-50%-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.merkez_yazi h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 700px;
+    text-align: right;
+}
+
+.merkez_yazi h2{
+    color: white;
+    font-size: 15px;
+    width: 650px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+a button {
+    background-color: #041228;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    top: 45px;
+    left: 300px;
+    width: 150px;
+    height: 50px; 
+}
+
+.ic_sayfa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.icerik{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.icerik h1{
+    font-size: 50px;
+
+}
+
+.icerik p{
+    font-size: 18px;
+}
+
+section{
+    padding: 100px 0;
+    border-bottom: 2px solid  rgb(0, 0, 0);
+}
+
+.ust_kisim{
+    position: fixed;
+    z-index: 5;
+}
+
+footer{
+    background-color: #01337e;
+    color: white;
+    padding: 60px 0 20px 0;
+}
+
+.ic_kisim{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.icerik_kisim{
+    flex-basis: 20%;
+}
+
+.icerik_kisim h3{
+    margin-bottom: 20px;
+    color: #bcbccb;
+}
+
+.ic_kisim li{
+    padding: 7px 5px;
+
+}
+
+
+
+.son_kisim{
+    text-align: center;
+    justify-content: center;
+    background-color: #e4e4ee;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.son_kisim ul{
+    float: right;
+    margin-right: 11px;
+
+}
+
+.son_kisim ul li{ 
+    list-style: none;
+    display: inline-block;
+    margin:0 12px;
+    line-height: 50px;
+
+}
+
+.son_kisim ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 12px;
+    padding: 15px 1px 0 20px;
+    font-family: Roboto;
+}
+
+.email-form {
+    background-color: #e4e4ee00;
+    padding: 2px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #041228;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* ANA SAYFA SAYFA CSS BİTİŞ*/
+
+/* HAKKIMIZDA SAYFASI CSS */
+
+.konteyner .merkez_yazi_hakkimizda{
+    position:absolute;
+    top: 34%;
+    left: 20%;
+    transform:translate(-50%-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.merkez_yazi_hakkimizda h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 640px;
+    text-align: right;
+}
+
+.merkez_yazi_hakkimizda h2{
+    color: white;
+    font-size: 15px;
+    width: 500px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+/* HAKKIMIZDA SAYFASI CSS BİTİŞ*/
+
+
+/* PORTFOLYO SAYFASI CSS */
+
+.konteyner .merkez_yazi_portfolyo{
+    position:absolute;
+    top: 34%;
+    left: 20%;
+    transform:translate(-50%-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.merkez_yazi_portfolyo h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 600px;
+    text-align: right;
+}
+
+.merkez_yazi_portfolyo h2{
+    color: white;
+    font-size: 15px;
+    width: 680px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+  
+  main img {
+    width: 25%;
+  }
+
+  /* Hizmetlerimiz css */
+
+  .konteyner .merkez_yazi_hizmetlerimiz{
+    position:absolute;
+    top: 34%;
+    left: 20%;
+    transform:translate(-50%-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.merkez_yazi_hizmetlerimiz h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 680px;
+    text-align: right;
+}
+
+.merkez_yazi_hizmetlerimiz h2{
+    color: white;
+    font-size: 15px;
+    width: 650px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+/* Ekip Arkadaşlarımız */
+
+.konteyner .merkez_yazi_ekip{
+    position:absolute;
+    top: 34%;
+    left: 20%;
+    transform:translate(-50%-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.merkez_yazi_ekip h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 780px;
+    text-align: right;
+}
+
+.merkez_yazi_ekip h2{
+    color: white;
+    font-size: 15px;
+    width: 650px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+a button {
+    background-color: #041228;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    top: 45px;
+    left: 300px;
+    width: 150px;
+    height: 50px; 
+}
+
+/* İletişim */
+
+.konteyner .merkez_yazi_iletişim{
+    position:absolute;
+    top: 34%;
+    left: 20%;
+    transform:translate(-50%-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.merkez_yazi_iletişim h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 600px;
+    text-align: right;
+}
+
+.merkez_yazi_iletişim h2{
+    color: white;
+    font-size: 30px;
+    width: 560px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.icerik .email-form{
+    background-color: #e4e4ee00;
+    padding: 2px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #041228;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.icerik_iletişim{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+
+
+
+}
+
+.adres_iletisim{
+  
+  margin-left: 200px;
+}
+
+/* Hayal Kahvesi CSS */
+
+.konteyner1 .merkez_yazi_hayal{
+    position:absolute;
+    top: 34%;
+    left: 20%;
+    transform:translate(-50%-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.merkez_yazi_hayal h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 700px;
+    text-align: right;
+}
+
+.merkez_yazi_hayal h2{
+    color: white;
+    font-size: 25px;
+    width: 510px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.konteyner1{
+    background:url(hayalkahvesi.jpg);
+    height: 94vh;
+    background-size: 100% 100%;
+}
+
+.konteyner1 .ust_kisim{
+    width: 100%;
+    background-color:#fdf9f9f7;
+}
+
+/* palas otel */
+
+.konteyner2 .merkez_yazi_palas{
+    position:absolute;
+    top: 34%;
+    left: 20%;
+    transform:translate(-50%-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.merkez_yazi_palas h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 630px;
+    text-align: right;
+}
+
+.merkez_yazi_palas h2{
+    color: white;
+    font-size: 25px;
+    width: 510px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.konteyner2{
+    background:url(bandırmapalas.jpg);
+    height: 94vh;
+    background-size: 100% 100%;
+}
+
+.konteyner2 .ust_kisim{
+    width: 100%;
+    background-color:#fdf9f9f7;
+}
+
+/* bandırma belediyesi */
+
+.konteyner3 .merkez_yazi_belediye{
+    position:absolute;
+    top: 34%;
+    left: 20%;
+    transform:translate(-50%-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.merkez_yazi_belediye h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 630px;
+    text-align: right;
+}
+
+.merkez_yazi_belediye h2{
+    color: white;
+    font-size: 25px;
+    width: 510px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.konteyner3{
+    background:url(bandırmabelediyesi.jpg);
+    height: 94vh;
+    background-size: 100% 100%;
+}
+
+.konteyner3 .ust_kisim{
+    width: 100%;
+    background-color:#fdf9f9f7;
+}
+
+/* S.S.S */
+
+.konteyner .merkez_yazi_sss{
+    position:absolute;
+    top: 34%;
+    left: 20%;
+    transform:translate(-50%-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.merkez_yazi_sss h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 540px;
+    text-align: right;
+}
+
+.merkez_yazi_sss h2{
+    color: white;
+    font-size: 20px;
+    width: 900px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* yukarı butonu */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
